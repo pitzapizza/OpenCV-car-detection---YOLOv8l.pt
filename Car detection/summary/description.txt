@@ -1,0 +1,8 @@
+12.06.2025
+
+OpenCV, or Open Source Computer Vision Library, is an advanced framework for implementing image processing and computer vision applications in Python. It provides optimized algorithms for object detection, image segmentation, feature extraction, and video analysis, making it a crucial tool in automation and AI-driven solutions. Python's extensive libraries and adaptability allow seamless integration of OpenCV into a variety of applications, including automated surveillance, facial recognition, medical imaging, and autonomous vehicle systems.
+
+This project employs Python, OpenCV, and YOLOv8 to execute precise car detection in images. The pipeline begins with preprocessing, where images undergo resizing, normalization, and color space conversion to enhance detection accuracy. YOLOv8 then performs real-time analysis, isolating cars while filtering out motorcycles, trucks, and other non-car objects. The detected vehicles are enclosed within bounding boxes, with dynamically adjusted labels to maintain proportionality and readability. Further optimizations, such as confidence threshold tuning, improve detection precision by minimizing false positives.
+
+Designed for traffic monitoring, automated vehicle recognition, urban planning, and intelligent surveillance systems, this project provides a robust solution suitable for both research and real-world deployment. Its applications extend to smart city infrastructure, parking management, autonomous vehicle systems, and AI-driven traffic analysis, contributing to enhanced efficiency and automation in transportation.  
+
