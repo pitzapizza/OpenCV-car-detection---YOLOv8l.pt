@@ -12,4 +12,4 @@ please update these variables according to your absolute directory, I have perso
 inside the detect_cars() function, theres a parameter called conf_threshold (confidence threshold). This is also an important parameter. It explains how sharp a car should be viewed, it ranges from 0-1
 if threshold tends to being closer to 1, the harder it makes to detect vaguely looking car like objects because this explains the strictness of how a car is defined. For me I have capped at 0.25 a below average factor
 This is because of different types of images I have uploaded inside the src/images folder. These photos will have a on road car image or off road car images, this being the reason why threshold is capped at below average threshold.
-Personallization of code should end here. No other factors should be touched up, they all play an important role in detecting and tracing what a car looks like. 
+Personallization of code should end here. No other factors should be touched upon, they all play an important role in detecting and tracing what a car looks like. 
